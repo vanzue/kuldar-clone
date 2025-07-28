@@ -1,40 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kuldar Clone</title>
-  <!--
-    This simple HTML file bootstraps a React application without a build step.
-    It imports React, React‑DOM and Babel from CDNs and then loads our
-    application code. The use of the Babel standalone compiler allows us to
-    write JSX directly in the browser. In a production setting you would
-    normally compile JSX ahead of time, but for the purposes of this
-    exercise the CDN approach keeps things light‑weight and easy to inspect.
-  -->
-  <link rel="stylesheet" href="styles.css" />
-  <!-- Font Awesome provides vector icons used throughout the page -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-xHU03oZFUCIfzn3rLDh5Sv0AVSkl8+C+3XvBHX1E0UWVoh0Jk1tWf5ZK9tklH/7tn6ZldWq6YTk2sUdjk+4O9g=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-  <!-- React and ReactDOM via UMD builds -->
-  <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
-  <!-- Babel compiler to transform JSX on the fly -->
-  <script src="https://unpkg.com/@babel/standalone@7.20.12/babel.min.js"></script>
-</head>
-<body>
-  <!-- The React application will be rendered into this root element -->
-  <div id="root"></div>
-  <!-- Application code written in JSX. Babel will compile this at runtime. -->
-  <script
-    type="text/babel"
-    data-presets="env,react"
-    src="app.js"
-  ></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      Manifest and favicon files are intentionally omitted since this is a
+      simple clone for demonstration.  You can add your own icons and
+      manifest entries here if desired.
+    -->
+    <title>Kuldar Clone</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
 </html>
